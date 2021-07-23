@@ -17,7 +17,6 @@ export default class CandyShopWrapper extends Component {
         super(props)
         this.state = {
         }
-
         this.apiCall = this.apiCall.bind(this)
     }
 
@@ -54,7 +53,7 @@ export default class CandyShopWrapper extends Component {
 
     render() {
         return (
-            <div className="candyBox">
+            <div id="box" className="candyBox">
                 {
                     this.candies.map((candy,index)=>{
                         return (

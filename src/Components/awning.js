@@ -2,7 +2,7 @@ import React from 'react'
 import './awning.scss'
 export default function awning() {
     return (
-        <div className="awning">
+        <div id="awn" className="awning">
           <div className="sign">
               <ul>
               <li></li>

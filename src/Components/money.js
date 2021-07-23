@@ -22,10 +22,10 @@ function Money() {
                 <input className="box" placeholder="Enter Dollar Amount" id={"allowanceInput"}/>
             </div>
             <div className="amount">
-                <button className="submit" onClick={() => setAllowance(parseFloat(document.getElementById("allowanceInput").value))}>
+                <button id="set" className="submit" onClick={() => setAllowance(parseFloat(document.getElementById("allowanceInput").value))}>
                     Set Amount
                 </button>
-                <button className="submit" onClick={() => setAllowance(((Math.random() *10).toFixed(2) ))}>
+                <button id="set2" className="submit" onClick={() => setAllowance(((Math.random() *10).toFixed(2) ))}>
                     Random Amount
                 </button>
             </div>
